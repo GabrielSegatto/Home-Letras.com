@@ -1,12 +1,25 @@
-.navbar, .fixed-top navbar-light{
-    background-color: #c2c800;
-}
-
-.emAlta{
-    margin-top: 15vw;
-}
-
-.baner{
-    background-color: rgb(235, 235, 235);
-    padding: 20px 0;
+.trending-icon{
+    color: #444;
+font: 13px/1 sans-serif;
+font-size: 13px;
+font-family: Arial,sans-serif;
+line-height: 1.1;
+white-space: nowrap;
+display: inline-block;
+flex-shrink: 0;
+position: relative;
+width: 9px;
+height: 9px;
+background-color: #f3504b;
+border-radius: 50%;
+} .trending-icon::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 2px;
+    left: 2px;
+    background-color: #fff;
+    border-radius: 50%;
 }
